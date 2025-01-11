@@ -45,12 +45,14 @@ nav {
     border-radius: 24px;
 
 }
+
 .banner-content {
-   
+
     margin: 80px 100px;
     align-items: center;
 }
-.header-img{
+
+.header-img {
     margin: 80px 100px;
 }
 
@@ -79,5 +81,105 @@ nav {
     font-size: 15px;
     font-weight: 600;
     margin-top: 24px;
-    
+    border: none;
+
+}
+
+/* vision section styles */
+.vision {
+    margin: 0px 160px;
+    padding: 80px 0px;
+}
+
+.vision-cards {
+    display: flex;
+    justify-content: space-around;
+    gap:24px;
+
+}
+.card1{
+color: black;
+background-color: rgba(84, 144, 245, 0.2);
+padding:35px;
+border-radius:16px;
+}
+.card2{
+color: black;
+background-color: rgb(198, 228, 214);
+padding:35px;
+border-radius:16px ;
+
+}
+
+.card3{
+color: black;
+background-color: rgb(247, 235, 207);
+padding: 35px;
+border-radius: 16px;
+}
+.vision-header {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 3px;
+    margin-bottom: 30px;
+}
+
+.vision-para {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.vision-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.vision-img {
+   margin-bottom: 35px;
+}
+
+.vision-buttons1 {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(84, 144, 245);
+    font-weight: 500;
+    /* line-height: 19px; */
+    letter-spacing: 0%;
+    /* text-align: left; */
+    padding: 11px 20px 11px 20px;
+    /* margin-bottom: 100px; */
+    border-radius: 8px;
+    border: none;
+}
+
+.vision-buttons2 {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(9, 161, 92);
+    font-weight: 500;
+    /* line-height: 19px; */
+    letter-spacing: 0%;
+    /* text-align: left; */
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.vision-buttons3 {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 194, 57);
+    font-weight: 500;
+    /* line-height: 19px; */
+    letter-spacing: 0%;
+    /* text-align: left; */
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.vision-description{
+    font-size: 18px;
+    margin-bottom: 30px;
 }
