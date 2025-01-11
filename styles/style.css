@@ -291,17 +291,18 @@ nav {
     width: 408px;
     height: 306px;
     margin: 22px 32px;
-    
+
 }
 
 .news-info1 {
     /* margin: 80px 100px; */
     align-items: center;
-    
+
 }
-.news-info1-header{
+
+.news-info1-header {
     font-size: 32px;
-font-weight: 700;
+    font-weight: 700;
 }
 
 .paraflex {
@@ -318,7 +319,8 @@ font-weight: 700;
     font-size: 16px;
     font-weight: 400;
 }
-.news-info1-btn{
+
+.news-info1-btn {
     padding: 13px 26px 13px 26px;
     color: white;
     background-color: rgb(0, 106, 80);
@@ -341,12 +343,12 @@ font-weight: 700;
     background-color: rgb(255, 255, 255);
     margin: 24px 160px;
     padding: 48px 48px;
-   
+
 }
 
-.news-info2-header{
+.news-info2-header {
     font-size: 32px;
-font-weight: 700;
+    font-weight: 700;
 }
 
 .satelite2 {
@@ -360,7 +362,7 @@ font-weight: 700;
 .news-info2 {
     /* margin: 80px 100px; */
     align-items: center;
-    
+
 }
 
 .paraflex {
@@ -377,7 +379,8 @@ font-weight: 700;
     font-size: 16px;
     font-weight: 400;
 }
-.news-info2-btn{
+
+.news-info2-btn {
     padding: 13px 26px 13px 26px;
     color: white;
     background-color: rgb(0, 106, 80);
@@ -388,8 +391,182 @@ font-weight: 700;
     margin-top: 7px;
 
 }
-.news-cards-sec{
+
+.news-cards-sec {
     /* margin: 0px 160px; */
     margin-top: -160px;
     padding: 80px 0px;
+}
+
+/* Donation section */
+.donation {
+    margin: 0px 248px;
+    /* padding: 80px 0px; */
+    text-align: center;
+}
+
+.donate-header {
+    margin-top: -40px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 40px 264px;
+
+}
+
+.amount-taka {
+    color: black;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 15px 50px;
+}
+
+.amount-taka3 {
+    color: black;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 15px 50px;
+}
+
+
+.form-container input {
+    text-align: center;
+    height: 42px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 337.5px;
+    padding: 5px 5px;
+    margin-bottom: 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.done {
+    padding: 17px 34px;
+    text-align: center;
+    margin-left: 869px;
+    margin-bottom: 80px;
+    height: 56px;
+    width: 151px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(0, 106, 80);
+    border: none;
+}
+
+/* footer-section */
+.subscribe {
+    margin: 0px 160px;
+    padding: 80px 0px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+
+}
+
+.sect-div {
+    text-align: center;
+}
+
+.sect-header {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+
+.sect-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.subscribe-container input[type="email"] {
+    flex: 1;
+    padding: 18px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    outline: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Button styles */
+.subscribe-container button {
+    background-color: rgb(0, 106, 80);
+    color: #fff;
+    border: none;
+    padding: 18px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+
+}
+
+.subscribe-container button:hover {
+    background-color: #095c34;
+}
+
+.subs-para {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.last-sec-para{
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+divider {
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin-bottom: 32px; 
+    width: 50%; 
+}
+.icons{
+    
+     display:flex;
+     gap: 35px;
+     margin-left:700px;
+     margin-top: 32px;
+}
+.body-color{
+    margin: 80px 160px;
+    padding: 80px 0px;
+    background-color: rgb(255, 255, 255);
 }
