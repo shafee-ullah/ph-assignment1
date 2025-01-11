@@ -1,7 +1,6 @@
 .work-sans-normal {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
         "wdth" 100
@@ -25,7 +24,6 @@ nav {
 }
 
 .btn-primary {
-    /* box-sizing: border-box; */
     border: 1px solid rgb(0, 106, 80);
     background-color: white;
     border-radius: 8px;
@@ -164,11 +162,8 @@ nav {
     color: white;
     background-color: rgb(84, 144, 245);
     font-weight: 500;
-    /* line-height: 19px; */
     letter-spacing: 0%;
-    /* text-align: left; */
     padding: 11px 20px 11px 20px;
-    /* margin-bottom: 100px; */
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -179,9 +174,7 @@ nav {
     color: white;
     background-color: rgb(9, 161, 92);
     font-weight: 500;
-    /* line-height: 19px; */
     letter-spacing: 0%;
-    /* text-align: left; */
     padding: 11px 20px 11px 20px;
     border-radius: 8px;
     border: none;
@@ -193,9 +186,7 @@ nav {
     color: white;
     background-color: rgb(255, 194, 57);
     font-weight: 500;
-    /* line-height: 19px; */
     letter-spacing: 0%;
-    /* text-align: left; */
     padding: 11px 20px 11px 20px;
     border-radius: 8px;
     border: none;
@@ -371,11 +362,9 @@ nav {
     width: 408px;
     height: 306px;
     margin: 0px 32px;
-    /* margin: 80px 100px; */
 }
 
 .news-info2 {
-    /* margin: 80px 100px; */
     align-items: center;
 
 }
