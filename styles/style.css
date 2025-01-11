@@ -8,7 +8,7 @@
 }
 
 .color-body {
-    background-color: rgb(245, 245, 245);
+    background-color: whitesmoke;
 }
 
 nav {
@@ -35,9 +35,11 @@ nav {
     line-height: 22px;
     letter-spacing: 0%;
     padding: 18px 35px;
-    /* text-align: left; */
+    cursor: pointer;
 }
-
+.btn-primary:hover{
+    background-color:wheat; 
+}
 /* banner styles */
 .banner {
     display: flex;
@@ -85,7 +87,11 @@ nav {
     font-weight: 600;
     margin-top: 24px;
     border: none;
+    cursor: pointer;
 
+}
+.banner-btn:hover{
+    background-color: #095c34;
 }
 
 /* vision section styles */
@@ -147,7 +153,12 @@ nav {
 .vision-img {
     margin-bottom: 35px;
 }
-
+.v-bgc1:hover{
+    background-color: rgb(231, 155, 12);
+}
+.v-bgc:hover{
+    background-color: wheat;
+}
 .vision-buttons1 {
     font-size: 16px;
     color: white;
@@ -160,6 +171,7 @@ nav {
     /* margin-bottom: 100px; */
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .vision-buttons2 {
@@ -173,6 +185,7 @@ nav {
     padding: 11px 20px 11px 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .vision-buttons3 {
@@ -186,6 +199,7 @@ nav {
     padding: 11px 20px 11px 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .vision-description {
@@ -329,10 +343,11 @@ nav {
     border-radius: 8px;
     border: none;
     margin-top: 7px;
-
+    cursor: pointer;
 }
-
-
+.news-info1-btn:hover{
+    background-color: #095c34;
+}
 
 
 .news-cards2 {
@@ -389,7 +404,11 @@ nav {
     border-radius: 8px;
     border: none;
     margin-top: 7px;
+    cursor: pointer;
 
+}
+.news-info2-btn:hover{
+    background-color: #095c34;
 }
 
 .news-cards-sec {
@@ -401,7 +420,6 @@ nav {
 /* Donation section */
 .donation {
     margin: 0px 248px;
-    /* padding: 80px 0px; */
     text-align: center;
 }
 
@@ -418,30 +436,33 @@ nav {
     font-weight: 400;
 }
 
+
 .amount {
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    margin: 40px 264px;
-
+    margin: 40px 300px;
 }
 
-.amount-taka {
+/* Button Styling */
+.amount-button {
     color: black;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 252px;
+height: 128px;
+    font-size: 16px;
+    font-weight: bold;
     border-radius: 16px;
+    border: none;
     background: rgb(255, 255, 255);
-    padding: 15px 50px;
+    padding: 60px;
+    cursor: pointer;
+    text-align: center;
 }
 
-.amount-taka3 {
-    color: black;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(198, 228, 214);
-    padding: 15px 50px;
+.amount-button:hover {
+    background-color: #095c34; 
+    color: white; 
 }
-
 
 .form-container input {
     text-align: center;
@@ -469,6 +490,10 @@ nav {
     color: white;
     background-color: rgb(0, 106, 80);
     border: none;
+    cursor: pointer;
+}
+.donate-button button:hover{
+    background-color: #095c34;
 }
 
 /* footer-section */
@@ -552,11 +577,11 @@ nav {
     margin-top: 40px;
 
 }
-divider {
+.divider {
     border: none;
     border-top: 1px solid #ccc; 
     margin-bottom: 32px; 
-    width: 50%; 
+    width: 80%; 
 }
 .icons{
     
